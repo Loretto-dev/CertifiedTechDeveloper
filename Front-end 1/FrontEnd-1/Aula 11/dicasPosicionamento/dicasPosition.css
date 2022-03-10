@@ -1,0 +1,11 @@
+
+
+/*position: absolute; /* absolute é em relação ao body ou a algum elemento ancestral posicionado a um relative*/
+
+/*position: relative/* relative em relação ao proprio elemento*/
+
+/*position: fixed /* como o obsulute, mas o elemento não gira com o scroll*/
+
+/*position: sticky /* Usada em barras de navegação
+
+*/

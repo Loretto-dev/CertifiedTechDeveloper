@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+body {
+  color: #A0ACAD;
+  
+  display: grid;
+  grid-template-areas: 
+    'header '
+    'main'
+    'footer';
+}
+  /*grid container*/
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+  
+/* itens filhos do container grid*/
+header {
+  background-color: #00ffb3; 
+  padding: 45px;
+  font-size:45px;
+  height: 20vh; /* 15% da altura da viewport (a área visível do navegador)*/
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #ae00ff;
+  grid-area: header;
+}
+
+header h1{
+  font-size: 50px;
+}
+
+header h1:hover{
+  color: #ff7b00;
+  font-size: 60px;
+}
+
+main {
+  background: linear-gradient(#888888, #fefefe);
+  color: #000000;
+  padding: 80px 0px 0px 100px;
+  align-items: center;
+  height: 120vh;
+  grid-area: main;
+}
+
+form{
+  border-color: #ff9100;
+}
+
+form label{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  color: #000000;
+}
+
+form input {
+  font-family: 'Montserrat', sans-serif;
+  padding: 2px 2px;
+  font-size: 20px;
+  border-radius: 3px;
+  border-color: #8d16c4;
+  margin-left: 2px;
+
+}
+
+p{
+  font-size: 30px;
+}
+
+div select{
+  font-size: 18px;
+  width: 250px;
+  padding: 10px;
+}
+
+#checkbox input{
+  width:  80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+button{ /* Botão Enviar */
+  background-color: #38e7b3;
+  width: 350px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+button:hover{
+  background-color: #ff9100;
+  transform: scale(1.1);
+}
+
+/***RODAPÉ***/
+footer {
+  padding: 60px;
+  display: flex;
+  background-color: #33032F;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+  grid-area: footer;
+}
+
+/*Estilos a serem aplicados para telas pequenas*/
+
+
+/*Estilos a serem aplicados para telas grandes*/
+@media only screen and (min-width: 768px){
+
+  * {
+    font-size: x-large;
+  }
+}
+@media only screen and (min-width: 1279px){
+
+  * {
+    font-size: x-large;
+  }
+}
+
+@media (orientation: landscape){
+   
+}

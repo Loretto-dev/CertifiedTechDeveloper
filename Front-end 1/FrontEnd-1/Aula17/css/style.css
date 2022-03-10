@@ -1,0 +1,91 @@
+body {
+    background-color: gray;
+}
+
+h1 {
+    color: rgb(255, 0, 0);
+    width: 600px;
+}
+
+
+div p {
+    opacity: 0%;
+    margin: 25px;
+    padding: 90px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    font-size: 80px;
+    font-weight: 500px;
+    border-radius: 50%;
+
+/*transform: scale(0.5) rotate(30deg);*/
+}
+
+div p:hover {
+    animation: deslizar 5s normal;
+    transform: scale(0.8) rotate(30deg)
+    
+}
+
+@keyframes deslizar {
+   0% { opacity: 0%;}
+   50% { opacity: 100%; transform: translateX(500px) rotate(180deg);}
+   100% {opacity: 0%; transform: scale(2);}
+}
+
+div img {
+    opacity: 20%;
+    margin: 50px;
+    padding: 90px;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    transform: scale(0.5) rotate(30deg);
+    
+}
+
+div img:hover {
+    animation: deslizar2 5s normal;
+    transform: scale(0.5) rotate(25deg)
+    
+}
+
+
+@keyframes deslizar2 {
+    0% { opacity: 0%;}
+    50% { opacity: 100%; transform: translateX(900px) rotate(30deg);}
+    100% {opacity: 30%; transform: scale(2);}
+ }
+
+
+button {
+    transition: all 0.3s;
+}
+
+button:hover {
+    transition: all ease-in-out .3s; /*efeito de transição no botao*/
+    border-radius: 5px;
+    width: 600px;
+    padding: 50px;
+}
+
+section img {
+    opacity: 20%;
+    margin: 50px;
+    padding: 90px;
+    width: 300px;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: 500px;
+    transform: scale(0.5) rotate(0deg);
+}
+
+section img:hover {
+    animation: deslizar 5s normal;
+    transform: scale(2.5) rotate(180deg)
+}

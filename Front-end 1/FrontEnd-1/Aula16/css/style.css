@@ -1,0 +1,98 @@
+body {
+    background: linear-gradient(rgba(255, 0, 0, 0.425), rgba(0, 0, 255, 0.411))
+}
+
+form {
+        padding: 20px 0;
+}
+
+#h1{
+    font-size: 40px;
+
+}
+
+h1::first-letter{
+    color: red;
+    font-size: 80px;
+
+}
+
+h1:hover{
+    color: rgb(0, 47, 255);
+}
+
+h2:hover {
+    text-transform: 100px;
+}
+
+h3{
+    font-size: 35px;
+}
+
+h3::first-letter {
+    color: blue;
+    font-size: 50px;
+
+}
+
+input:focus {
+        background-color: yellow;
+}
+
+img {
+        width: 300px;
+}
+
+img:hover {
+        border-image: 3px;
+}
+
+    
+a {
+    font-size: 30px;
+    font-weight: bold;
+}
+    
+a:link  {
+    color: rgb(28, 96, 243);
+}
+    
+a:visited {
+    color: rgb(255, 0, 0);
+}
+    
+a:hover  {
+    color: rgb(4, 0, 255);
+}
+    
+a:active {
+    color:rgb(17, 133, 7);
+}
+    
+p:target {
+    background-color: gold;
+}
+    
+#p3::first-letter {
+    color: red;
+    font-size: 30px;
+}
+    
+#p3::after{
+    content: "Atenção aqui!";
+    color: red;
+}
+    
+button {
+    background-color: red;
+    color: white;
+}
+    
+button:disabled {
+    background-color: gray;
+    color: white;
+}
+
+input:checked {
+    border: 50px solid rgb(255, 51, 0);
+  }

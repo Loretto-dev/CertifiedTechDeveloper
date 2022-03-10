@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style2.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário CP2</title>
+</head>
+<body class="container">
+    <header class="center">
+        <h1>Coleta de Dados</h1>
+    </header>
+    <main>
+        <form action="/usuario/formulario" method="GET" id="userform">
+            <fieldset form="userform">
+                <legend>Formulário</legend>
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome completo" maxlength="100">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="@gmail.com">
+                </div>
+                <div>
+                    <label for="telefone">Telefone:</label>
+                    <input type="number" name="telafone" id="telefone" placeholder="+55">
+                </div>
+                <div>
+                    <label for="idade">Data de nascimento:</label>
+                    <input type="date" name="idade" id="idade" value="01-01-2000">
+                </div>
+                <div>
+                    <p>Maior de Idade?</p>
+                    <input type="radio" name="maiorIdade" value="sim" id="maiorIdadeS"> <label for="maiorIdadeS">Sim</label>
+                    <input type="radio" name="maiorIdade" value="nao" id="maiorIdadeN"> <label for="maiorIdadeN">Não</label>
+                </div>
+
+                <div>
+                    <label for="PdI">Pontos de interesse</label>
+                    <select name="PdI" id="PdI">
+                        <optgroup label="Segmentos">
+                            <option value="gastronomia">Gastronomia</option>
+                            <option value="praia">Praias</option>
+                            <option value="trilha">Trilhas</option>
+                        </optgroup>
+                    </select>
+                </div>
+
+                <div>
+                    <p>Areas de interesse:</p>
+                    <input type="checkbox" name="areas" value="Trabalho" id="areaTrab"> 
+                    <label for="areaTrab">Trabalho</label>
+                    <input type="checkbox" name="areas" value="Turismo" id="areaTur"> 
+                    <label for="areaTur">Turismo</label>
+                    <input type="checkbox" name="areas" value="Intercambio" id="areaInter"> 
+                    <label for="areaInter">Intercambio</label>
+                </div>
+
+                <div id="buttons">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

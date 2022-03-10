@@ -1,0 +1,43 @@
+//ORGANIZAÇÃO MODULARIZADA
+@use 'base';
+@use 'components';
+@use 'layout';
+
+//MAIS NADA AQUI!
+
+
+
+// variaveis
+
+$primary-color:rgb(12, 167, 25);
+$height: 200px;
+$width: 200px;
+$padding: 0.5rem;
+
+//classe mãe (a ser extendida)- propriedades comuns a serem herdadas pelas classes "filhas"
+%message-shared {
+    width: 200px;
+    height: 200px;
+    border: 2px solid $primary-color ;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+@mixin box($height, $width) {
+    height: $height;
+    width: $width;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 3px solid rgb(248, 0, 0);
+    border-radius: 0.5rem;
+}
+
+h1{
+    @extend %message-shared;
+}
+
+h2 {
+    @include box(100px, 600px );
+}
+
+

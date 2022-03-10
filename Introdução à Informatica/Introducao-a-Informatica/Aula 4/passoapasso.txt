@@ -1,0 +1,74 @@
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4
+$ mkdir projeto
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4
+$ cd projeto
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto
+$ touch text1.txt text2.txt
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto
+$ git init
+Initialized empty Git repository in C:/Users/elive/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto/.git/
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ add .
+bash: add: command not found
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git add .
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git commit -m "Arquivos texto projeto adicionados"
+[master (root-commit) 1da314f] Arquivos texto projeto adicionados
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 text1.txt
+ create mode 100644 text2.txt
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ echo Meu primeiro teste com o git > text1.txt
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ echo Olá Mundo > text2.txt
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text1.txt
+        modified:   text2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git commit -m "arquivos alterados"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   text1.txt
+        modified:   text2.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git add text1.txt
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git add text2.txt
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git commit -m "arquivos alterados"
+[master 993fa92] arquivos alterados
+ 2 files changed, 2 insertions(+)
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+elive@DESKTOP-PF7CRL3 MINGW64 ~/Desktop/DEV/Certified Tech Developer/Introdução à Informatica/Aula 4/projeto (master)
+$ git echo Olá Mundo > text2.txt

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulario</title>
+</head>
+
+<body class="container">
+    <header class="center">
+        <h1> Dados do Passageiro </h1>
+    </header>
+    <aside>
+    </aside>
+    <main>
+        <form action="/usuario/formulario" method="GET" id="userform">
+            <fieldset form="userform">
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome completo" maxlength="100">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="@gmail.com">
+                </div>
+                <br>
+                <div>
+                    <label for="telefone">Telefone: </label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="+55" maxlength="11">
+                </div>
+                <br>
+                <div>
+                    <label for="idade">Data de nascimento: </label>
+                    <input type="date" name="idade" id="idade" value="01-01-2000">
+                </div>
+                <br>
+                <div>
+                    <p>Maior de Idade?</p>
+                    <br>
+                    <input type="radio" name="maiorIdade" value="sim" id="maiorIdadeS"> <label
+                        for="maiorIdadeS">Sim</label>
+                    <input type="radio" name="maiorIdade" value="nao" id="maiorIdadeN"> <label
+                        for="maiorIdadeN">Não</label>
+                </div>
+                <br>
+                <div>
+                    <label for="PdI">Pontos de interesse: </label>
+                    <select id="PdI" name="PdI">
+                        <optgroup label="Segmentos">
+                            <option value="gastronomia">Gastronomia</option>
+                            <option value="praia">Praias</option>
+                            <option value="trilha">Trilhas</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <br>
+                <div id="checkbox">
+                    <p>Áreas de interesse: </p>
+                    <br>
+                    <input type="checkbox" name="areas" value="Trabalho" id="areaTrab">
+                    <label for="areaTrab">Trabalho</label>
+                    <input type="checkbox" name="areas" value="Turismo" id="areaTur">
+                    <label for="areaTur">Turismo</label>
+                    <input type="checkbox" name="areas" value="Intercambio" id="areaInter">
+                    <label for="areaInter">Intercambio</label>
+                </div>
+                <br>
+                <div id="buttons">
+                    <button type="reset">Limpar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </fieldset>
+        </form>
+        <div > <img class="aviao" src="img/aviao.png" alt="aviao"> </div>
+    </main>
+    <footer>
+        <p class="copyright">&copy; Copyright - 2021 - Allan Medeiros, Elissandro Maciel, Elivelton Alves</p>
+    </footer>
+</body>
+
+</html>

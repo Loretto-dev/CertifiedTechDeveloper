@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Yet Another Quadratic Equation Solver</title>
+        <meta name="keywords" content="mathematics,math,html5,javascript,mathjs,mathjax,quadratic,equation,solve" />
+        <meta name="description" content="Calculating the roots of quadratic equation with mathjax and jquery mobile" />
+        <meta name="author" content="José Augusto Cintra">
+        <meta name="robots" content="index, follow">
+        <meta name="viewport" content="width=device-width; initial-scale=1.0">
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="MobileOptimized" content="320"/>
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>        
+        <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=AM_HTMLorMML-full"></script>
+
+    </head>
+    <body>
+        <div data-role="page" id="main_page" data-theme="a">
+            <div data-role="header"  data-position="fixed">
+                <h3 style="text-align:left; margin-left:10px;color: green;">Yet Another Quadratic Equation Solver</h3>
+            </div>
+
+            <div data-role="content" id="main_content">
+
+                <div class="ui-corner-all ui-overlay-shadow" style="padding: 1em;">
+
+                    <strong>Coefficients for `ax^2 + bx + c`&nbsp;&nbsp;`(a ne 0)`  :</strong>
+                    <div class="ui-grid-b">
+                        <div class="ui-block-a">
+                            <div data-controltype="textinput" >
+                                <input class="coef" name="a_coef" id="a_coef" placeholder="a" value="" type="text" >
+                            </div>
+                        </div>
+                        <div class="ui-block-b">
+                            <div data-controltype="textinput" >
+                                <input class="coef" name="b_coef" id="b_coef" placeholder="b" value="" type="text">
+                            </div>
+
+                        </div>
+                        <div class="ui-block-c">
+                            <div data-controltype="textinput" >
+                                <input class="coef" name="c_coef" id="c_coef" placeholder="c" value="" type="text">
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <div id="results">
+
+                        <p>
+                            <br/>
+                            <strong style="text-decoration: underline;color: green;">Equation</strong>
+                            <br/>
+                        <div id="dv_equation"></div>
+                        </p>
+
+                        <p>
+                            <br/>
+                            <strong style="text-decoration: underline;color: green;">Solution</strong>
+                            <br/>
+                        </p>
+                        `Delta = b^2 - 4ac = `<span id="dv_delta"></span>
+                        <br/>
+                        <br/>
+
+                        <span id="dv_delta_msg"></span>
+                        <br/>
+                        <span class="x" id="dv_x1"></span>
+                        <br/>
+                        <span class="x" id="dv_x2"></span>
+
+                    </div>
+                </div>
+            </div>
+            <div data-role="footer" id="main_footer" data-position="fixed" >
+                <a href="http://html-apps.info" target="_BLANK" style="text-align:left; margin-left:10px;color: green;">HTML Apps</a>
+            </div>
+        </div>
+        <script src="js/yaques.js"></script>
+    </body>
+</html>

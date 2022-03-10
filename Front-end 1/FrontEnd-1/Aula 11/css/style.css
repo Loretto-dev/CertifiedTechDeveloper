@@ -1,0 +1,45 @@
+body{
+    background-color: white;
+}
+
+.caixas {
+
+}
+
+.mae1 {
+    width:300px;
+    height:300px;
+    border: 10px solid;
+    border-color: rgb(2, 2, 2) rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+
+}
+
+
+.mae2 {
+    width:300px;
+    height:300px;
+    border: 10px solid;
+    border-color: rgb(2, 2, 2) rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+}
+
+
+.mae3 {
+    width:300px;
+    height:300px;
+    border: 10px solid;
+    border-color: rgb(2, 2, 2) rgb(0, 0, 0) rgb(0, 0, 0) rgb(0, 0, 0);
+    
+}
+
+.centro {
+    align-items: center;
+    width:150px;
+    height:150px;
+    border: 10px solid;
+    border-color: rgb(255, 0, 0) rgb(0, 255, 0) rgb(0, 0, 255) rgb(255, 204, 0);
+}
+
+h2 {
+    text-align: center;
+    
+}

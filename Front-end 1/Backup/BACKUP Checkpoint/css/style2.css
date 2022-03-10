@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+color: #A0ACAD;
+
+}
+
+header {
+    background-color: #bbff00;
+    padding: 50px;
+    height: 15vh; /* 15% da altura da viewport (a área visível do navegador)*/
+    text-align: center;
+    color: #8d16c4;
+    border-radius: 0.1%;
+    grid-area: header;
+}
+
+main{
+    background-color: #5abcce;
+    text-align: center;
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    border-radius: 5px;
+
+}
+fieldset{
+    border-radius: 5px;
+
+}
+
+form{
+
+}
+
+#userform{
+
+}
+
+#nome{
+
+}
+
+#email{
+
+}
+
+#telefone{
+
+}
+#idade{
+
+}
+
+#maiorIdadeS{
+
+}
+
+#maiorIdadeN{
+
+}
+
+#PdI{
+
+}
+
+#areaTrab{
+
+}
+
+#areaTur{
+
+}
+
+#areaInter{
+
+}
+
+#buttons{
+
+}

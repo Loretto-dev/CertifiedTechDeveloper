@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+
+/******header página index***************/
+.header-Index {
+  padding: 30px;
+}
+
+.header-site {
+  background-image: url(https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.header-site h1 {
+  font-size: calc(1.5rem + 20vw);
+  color: rgb(10, 10, 10);
+}
+
+.header-site h1:hover {
+  font-size: calc(1.5rem + 22vw);
+  color: rgb(250, 142, 0);
+}
+
+.header-site p {
+  font-size: 30px;
+  color: black;
+}
+
+.navbar-brand{
+  margin: 0 5rem 0 3rem;
+}
+
+/*Botão de Login*/
+
+.dropdown-menu {
+  padding: 15px;
+}
+
+.dropdown{
+  padding-left: 10rem;
+}
+
+#dropdownMenuButton1 {
+  color: rgb(255, 174, 0);
+  background-color: white;
+}
+
+#dropdownMenuButton1:hover {
+  color: rgb(255, 174, 0);
+  background-color: rgba(255, 174, 0, 0.61);
+}
+
+.botaoEntrar {
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: rgba(18, 194, 56, 0.582)
+}
+
+.content-site {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+
+/************Cards gerais**************************/
+
+.card-grd {
+  background-color: #ffffff;
+}
+
+.card-text {
+  text-align: center;
+}
+
+.card {
+  margin: 10px 10px 10px 10px;
+  padding: 8px;
+}
+
+.card-img-top:hover {
+  transform: scale(1.03);
+  opacity: 70%;
+  transition: all 1.8s cubic-bezier(.19, 1, .22, 1);
+}
+
+.text-left {
+  text-align: left;
+}
+
+.saiba-mais {
+  padding-left: 20px;
+}
+
+/*Imagem Paralax final - páginas*/
+.img-fim {
+  background-image: url(https://images.memphistours.com/xlarge/f020edc00920efd1417fb5d15996e7c5.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/*Footer - páginas*/
+.footer-site {
+  background-color: #333333;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+
+
+/******Novidades e tendências - Pagina 1***********/
+
+.header-pagina1 {
+  background-image: url(https://www.expo2020dubai.com/-/media/expo2020/campaigns/be-there/expo2020-bethere-hero-3-3200x1800.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 150px;
+  padding-bottom: 200px;
+}
+
+#tendencias {
+  font-family: 'Monoton', cursive;
+  font-size: calc(1.5rem + 11vw);
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 136, 0);
+}
+
+#img1 {
+  margin-left: 160px;
+  width: 56.25rem;
+  height: 31.25rem;
+  border-radius: 10px;
+
+}
+
+.card2 iframe {
+  padding-top: 20px;
+  margin-left: 160px;
+}
+
+/*************Comer e Beber - Pagina 2************************************************/
+.header-pagina2 {
+  background-image: url(https://thepenthouse.co/wp-content/uploads/2021/01/ABC08857-HDR-min-1600x1067.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#comida {
+  font-family: 'Monoton', cursive;
+  font-size: calc(1.5rem + 12vw);
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#img-food {
+  margin-left: 140px;
+  width: 62.5rem;
+  height: 25rem;
+  border-radius: 10px;
+}
+
+/*************Visitas e Atrações - Pagina 3************************************************/
+.header-pagina3 {
+  background-image: url(https://cdn.getyourguide.com/img/location/5729ac9c8b9e3.jpeg/88.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment:fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#visita {
+  font-family: 'Monoton', cursive;
+  font-size: calc(1.5rem + 8vw);
+  color: rgb(255, 238, 0);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+#img-atrac {
+  margin-left: 9rem;
+  width: 56.25rem;
+  height: 31.25rem;
+  border-radius: 10px;
+}
+
+/*************Atividades - Pagina 4************************************************/
+.header-pagina4 {
+  background-image: url(https://panoramadeviagem.com.br/wp-content/uploads/2021/06/museus-dubai.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#atividades {
+  font-family: 'Monoton', cursive;
+  font-size: calc(1.5rem + 8vw);
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 0, 234);
+}
+
+#img-cultura {
+  margin-left: 140px;
+  width: 56.25rem;
+  height: 31.25rem;
+  border-radius: 10px;
+}
+
+
+/*************Cultura e Tradições - Pagina 5************************************************/
+.header-pagina5 {
+  background-image: url(https://www.arabiahorizons.com/blog/wp-content/uploads/2020/06/Dubai-Culture-min-1-scaled.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#cultura {
+  font-family: 'Monoton', cursive;
+  font-size: calc(1.5rem + 12vw);
+  color: rgb(0, 0, 0);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(255, 251, 0);
+}
+
+#img-cultura {
+  margin-left: 140px;
+  width: 56.25rem;
+  height: 31.25rem;
+  border-radius: 10px;
+}
+
+
+/*************Compras - Pagina 6************************************************/
+.header-pagina6 {
+  background-image: url(https://spguia.melhoresdestinos.com.br/system/fotos_local/fotos/37224/show/global-village.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+#compras {
+  font-family: 'Monoton', cursive;
+  font-size: calc(1.5rem + 12vw);
+  color: rgb(51, 255, 0);
+  -webkit-text-stroke-width: 2px;
+  /* largura da borda */
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  /* cor da borda */
+}
+
+#img-compras {
+  margin-left: 140px;
+  border-radius: 10px;
+}
+
+/*****************Página Contato*************************************************/
+
+.formulario {
+  padding: 30px;
+}
+
+.corpo_site {
+  padding: 20px 0;
+  font-weight: bold;
+  margin: 0 0 10px;
+  background: linear-gradient(#888888, #fefefe);
+}
+
+.titulo-input {
+  margin: 0 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin: 0 10px 20px;
+  padding: 10px 25px;
+  width: 50%;
+}
+
+.margem {
+  margin: 0.5rem;
+}
+
+.checkbox {
+  margin-top: 1rem;
+}
+
+.enviar {
+  margin-top: 2rem;
+  width: 40%;
+  padding: 15px 0;
+  background: #e4c278;
+  color: #3e474e;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+.enviar:hover {
+  background: rgb(255, 136, 0);
+  transform: scale(1.05);
+}
+
+/**************MEDIA QUERY*************************************/
+
+@media (max-width: 767.98px) {
+  #img-compras, #img-cultura, #atividades, #img-food, #img-atrac, #img1 {
+    align-items:center;
+    max-width: 100%;
+    margin: auto;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+  }
+  #comida, #visita, #atividades, #cultura, #compras  {
+    font-size: auto;
+    max-width: 100%;
+    margin: auto;
+    width: auto;
+    height: auto;
+    font-size: 40px;
+  }
+  #tendencias, #curiosidades, #compras, #visita, #comida{
+    font-size: 40px;
+  }
+  .card2 iframe{
+    max-width: 100%;
+    margin: auto;
+  }
+}

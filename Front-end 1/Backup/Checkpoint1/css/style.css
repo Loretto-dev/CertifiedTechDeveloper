@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/*Corpo Página*/
+body {
+    color: #A0ACAD;
+    height: 800px;
+    display: grid;
+    grid-template-areas:
+        'header '
+        'main'
+        'footer';
+}
+
+/*Classe do body*/
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+header {
+    background: linear-gradient(#00ffb3, #2ca8ce);
+    padding: 45px;
+    font-size: 45px;
+    height: 20vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    color: #000000;
+    grid-area: header;
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+
+main {
+    background: linear-gradient(#2ca8ce, #fefefe);
+    color: #000000;
+    padding: 80px 0px 0px 100px;
+    align-items: center;
+    height: 120vh;
+    grid-area: main;
+}
+
+form {
+    border-color: #ff9100;
+}
+
+form label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #000000;
+}
+
+form input {
+    font-family: 'Montserrat', sans-serif;
+    padding: 2px 2px;
+    font-size: 20px;
+    border-radius: 3px;
+    border-color: #8d16c4;
+    margin-left: 2px;
+
+}
+
+p {
+    font-size: 30px;
+}
+
+div select {
+    font-size: 18px;
+    width: 250px;
+    padding: 10px;
+}
+
+#checkbox input {
+    width: 80px;
+}
+/* Botão Enviar */
+button { 
+    background-color: #38e7b3;
+    width: 350px;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+button:hover { 
+    background-color: #ff9100b2;
+    transform: scale(1.1);
+}
+/* Hover dos inputs */
+input:hover { 
+    background-color: #ff9100b2;
+}
+
+#maiorIdadeS:hover,#maiorIdadeN:hover { /* Inputs Maior de Idade */
+    background-color: #ff9100b2;
+    transform: scale(1.5);
+}
+
+ /*Pontos de interesse*/
+#PdI{
+    border-radius: 10px;
+}
+#maiorIdade:hover,#areaTrab:hover,#areaTur:hover,#areaInter:hover {
+    background-color: #ff91009f;
+    transform: scale(1.5);
+}
+
+/***Rodapé***/
+footer {
+    color: azure;
+    background: linear-gradient(#fefefe, #41063c);
+    padding: 60px;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+}
+
+/* Animação */
+.aviao {
+    margin-top: 30px;
+    height: 150px;
+    width: 150px;
+    animation: aviao 4s infinite;
+}
+
+/*** Keyframe da animação ***/
+@keyframes aviao {
+    0% {
+
+        margin-left: 0%;
+        opacity: 0%;
+        transform: scale(0.9);
+    }
+
+    50% {
+        margin-left: 45%;
+        opacity: 100%;
+        transform: scale(1.5);
+    }
+
+    100% {
+        margin-left: 85%;
+        opacity: 0%;
+        transform: scale(0.7);
+    }
+}

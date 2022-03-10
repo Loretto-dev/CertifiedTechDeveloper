@@ -1,0 +1,63 @@
+body {
+    height: 1600px;
+    font-size: 18px;
+}
+
+input, button{
+    margin: 10px 0;
+}
+
+input:focus{
+    background-color: chartreuse;
+}
+
+button:enabled{
+    background-color: darkgreen;
+    color: white
+}
+
+button:disabled {
+    background-color: gray;
+    color: white;
+  }
+
+li:nth-child(2n){
+    background-color: salmon;
+}
+
+a {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+a:link{
+    color: blue;
+}
+
+a:visited{
+    color: orangered
+}
+
+a:hover{
+    color: purple;
+}
+
+a:active{
+    color: green;
+}
+
+p:target{
+    background-color: gold;
+}
+
+
+#p3::first-letter{
+    color: red;
+    font-size: 30px;
+}
+
+#p3::after{
+    font-size: 18px;
+    content: "Atenção aqui!";
+    color: red;
+}

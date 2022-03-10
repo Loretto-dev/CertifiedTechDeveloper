@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>DH Travel | Contato</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="home" height="100"></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Destino"> Destino | Dubai </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#curiosidades">Curiosidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://www.tripadvisor.com.br/Hotels-g295424-Dubai_Emirate_of_Dubai-Hotels.html">Onde Ficar</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"
+                href="https://www.visitdubai.com/pt/whats-on/dubai-events-calendar?tags=Divers%C3%A3o">Eventos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html#teste">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre</a>
+            </li>
+          </ul>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              LOGIN
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><label type="text"> Login: </label> <input type="text" class="dropdown-item"></li>
+              <li><label type="text"> Senha: </label><input type="text" class="dropdown-item"></li>
+              <button class="botaoEntrar" type="submit" id="dropdownMenuButton1">Entrar</button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="formulario">
+        <form>
+          <label for="nomesobrenome" class="titulo-input">Nome e sobrenome</label>
+          <input type="text" id="nomesobrenome" class="input-padrao" required>
+
+          <label for="email" class="titulo-input">Email</label>
+          <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+          <label for="telefone" class="titulo-input">Telefone</label>
+          <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX)XXXXX-XXXX">
+
+          <label for="mensagem" class="titulo-input">Mensagem</label>
+          <textarea cols="71" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+          <fieldset class="titulo-input">
+            <legend>Como prefere o nosso contato?</legend>
+            <label class="margem" for="radio-email"><input type="radio" name="contato" value="email"
+                id="radio-email">Email</label>
+
+
+            <label class="margem" for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                id="radio-telefone">Telefone</label>
+
+
+            <label class="margem" for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
+                id="radio-whatsapp" checked>WhatsApp</label>
+          </fieldset>
+
+          <label class="checkbox"><input type="checkbox" checked> Gostaria de receber nossas novidades por
+            email?</label>
+        </form>
+        <input type="submit" value="Enviar" class="enviar">
+      </div>
+    </section>
+
+    <!-- Paralax do fim da página  -->
+    <section class="img-fim">
+      <div class="container">
+        <div class="row">
+        </div>
+      </div>
+    </section>
+
+    <section class="footer-site">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <h5 class="text-center" id="sobre"><img src="img/logo.png" alt="home" height="100"></h5>
+            <p class="text-center">&copy; Copyright - 2021 - Grupo AEE - Allan Medeiros, Elissandro Maciel, Elivelton
+              Alves
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

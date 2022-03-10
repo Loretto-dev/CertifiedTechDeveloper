@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.main-menu {
+    background-color: red;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -200px;
+    transition: 1.5s;
+
+}
+
+.main-menu-opened{
+
+    left: 0;
+
+}

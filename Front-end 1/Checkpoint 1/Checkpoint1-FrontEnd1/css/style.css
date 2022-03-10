@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap'); /* Fonte para titulos*/
+/*font-family: 'Fredoka One',*/
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap'); /* Fonte para titulos do cabecalho e rodapé */
+/*font-family: 'Bungee Shade', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Rasa:wght@600&display=swap'); /* Fonte para textos */
+/*font-family: 'Rasa', serif;*/
+
+body {
+    background-image: linear-gradient(rgba(67, 133, 153, 0.582), rgba(0, 0, 0, 0.4)),url(https://amofranca.com.br/wp-content/uploads/2019/01/Ricardo-Rick-Pra%C3%A7a-Nossa-Senhora-da-Concei%C3%A7%C3%A3o-catedral-Amo-Franca.jpg) ;/*lineargradiente* coloca gradiente(2 cores) na página*/
+    background-size: 1366px 720px; /*define tamanho da imagem de fundo */
+    background-repeat: no-repeat; /* Interrompe a imagem de se repetir*/
+    background-attachment: fixed; /* fixa a imagem na rolagem da página */
+    overflow-x: hidden; /* retira barra de rolagem do eixo x */
+}
+.titulo{ /*Titulo da página*/
+    background-color: linear-gradient(rgba(67, 133, 153, 0.582), rgba(0, 0, 0, 0.4)); /*lineargradiente* coloca gradiente(2 cores) na página*/
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0.1px;/* Colocar borda no texto */
+    -webkit-text-stroke-color: rgb(0, 0, 0);/* Escolher cor da borda */
+    font-size: 80px;
+    font-family: 'Bungee Shade';
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.historia { /*Titulo do texto */
+    padding: 40px;
+    color: rgba(0, 183, 255, 0.726);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-family: 'Fredoka One';
+    font-size: 70px;
+    text-align: center;
+
+
+}
+.texto { /* Primeiro Texto */
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-family: 'Rasa';
+    font-size: 40px;
+    text-align: center;
+    padding: 19px;
+}
+
+.imperador { /* Texto do imperador*/
+    padding: 20px;
+    color: rgba(0, 183, 255, 0.726);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-family: 'Fredoka One';
+    font-size: 50px;
+    text-align: center;
+}
+
+.video { /* Video */
+    margin: 2%;
+    width: 1280px; 
+    height: 720px;
+    border: 5px solid blue;
+    
+}
+
+.curiosidades{ /* Textos da lista */
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-family: 'Rasa';
+    font-size: 30px;
+    text-align: center;
+    padding: 19px;
+    margin-bottom: 10px;
+}
+
+.tituloCurioso{ /* Titulo: curiosidades */
+    padding: 20px;
+    color: rgba(0, 183, 255, 0.726);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-family: 'Fredoka One';
+    font-size: 80px;
+    text-align: center;
+
+}
+
+.curiTitulos { /* Titulos da lista*/
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    font-family: 'Fredoka One';
+    font-size: 50px;
+    text-align: center;
+}
+
+.imagemLista { /* Imagens da lista */
+    width: 50%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10%;
+    border-image: 2px;
+}
+
+.redes-sociais{ /* Titulo rede sociais */
+    margin: 3.1%;
+    text-align: 30px;
+    padding: 50px;
+    color: rgb(255, 255, 255);
+    font-family: 'Bungee Shade';
+    text-decoration:double;
+    font-size: 70px;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+
+}
+
+.redes-sociais img{ /* Icones redes sociais */
+    padding: 10px;
+    align-items: start;
+    width: 90px;
+    margin: 50px 20px 0px 200px;
+    border-radius: 90%;
+}
