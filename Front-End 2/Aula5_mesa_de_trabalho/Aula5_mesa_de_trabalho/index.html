@@ -6,39 +6,34 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
-  <title>Aula 5 - Modificar elementos com JS </title>
+  <title>Checkpoint 1 | </title>
 </head>
 
-<body class="dark">
-  <button onclick="darkMode()">Dark-Mode</button>
-
-
-
-  <h1>Adicionar</h1>
+<body class="corpo">
+      
+  <h1 id="titulo">Personagens BadAss</h1>
+  
 
   <form>
 
-      <fieldset>
-          <label for="primeiroNumero">Primeiro número</label>
-          <input type="number" id="primeiroNumero">
-      </fieldset>
+          <label for="nome">Nome do Personagem</label>
+          <input type="text" id="NomePersonagem">
 
-      <fieldset>
-          <label for="segundoNumero">Segundo número</label>
-          <input type="number" id="segundoNumero">
-      </fieldset>
+          <label for="habilidade">Habilidade do Personagem</label>
+          <input type="text" id="habilidade">
 
-      <fieldset>
-          <button type="submit" id="somar">Somar</button>
-          <button type="submit" id="subtrair">Subtrair</button>
-          <button type="submit" id="dividir">Dividir</button>
-          <button type="submit" id="multiplicar">Multiplicar</button>
-      </fieldset>
+        <label for="descricao">Descrição do Personagem</label>
+        <input type="text" id="descricao">
 
+        <label for="url_Imagem">Imagem do Personagem</label>
+        <input type="url" id="url_Imagem">
+    <div id="login">
+      <button><img src="./imagens/download.png"></button>
+    </div>
   </form>
-
-  <h1>A família dos felinos</h1>
-
+  
+<h1 id="subTitulo">Hall da fama dos Brabos</h1>
+<!--
   <div class="container">
     <div class="item">
       <img src="./imagens/tiger.jpg">
@@ -103,6 +98,7 @@
       </p>
     </div>
   </div>
+-->
   <script src="./main.js"></script>
 
 </body>
