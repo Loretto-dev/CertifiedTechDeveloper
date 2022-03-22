@@ -11,24 +11,34 @@ let loginReference = document.querySelector('#login')
 loginReference.addEventListener("click",function(event) {
     event.preventDefault()
     let card = {
-        nome: nomePersonagemReference.value,
-        habilidade: habilidadeReference.value,
-        descricao: descricaoReference.value,
-        imagem: imagemReference.value
+        nome: nomePersonagemReference.value.trim(),
+        habilidade: habilidadeReference.value.trim(),
+        descricao: descricaoReference.value.trim(),
+        imagem: imagemReference.value.trim()
     }
     let containerReference = document.querySelector('.container')
     let cards = [
         containerReference.innerHTML+= 
-            `<div>
+            `<div class="card">
             <img src="${card.imagem}"></img>
             <h3>${card.nome}</h3>
-            <h4>${card.nome}</h4>
+            <h4>${card.habilidade}</h4>
             <p> ${card.descricao} </p>
             </div>`
     ]
     cards.push(card)
     console.log(card)
 })
+
+//function limpar(){
+  //  nomePersonagemReference = ''
+  //  habilidadeReference = ''
+  //  descricaoReference = ''
+//    imagemReference = ''
+//}
+
+//resetReference.addEventListener('click', limpar())
+
 
 
 
