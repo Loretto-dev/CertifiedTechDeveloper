@@ -7,87 +7,96 @@
   transition: 0.4s;
 }
 
+/*Corpo Pagina*/
 body {
-  background-color: rgb(219, 219, 219);
+  background-color: rgb(148, 148, 148);
 }
+
+/*Botao Reset*/
 #reset {
   width: 60px;
   height: 60px;
+  border-radius: 60px;
 }
 
 #reset img {
   width: 50px;
   height: 50px;
+  border-radius: 100px;
+  
 }
-
+/*Botao Login*/
 #login{
   display: flow-root;
   padding: 30px;
   justify-content: center;
-  margin-left: 40%;
+  text-align: center;
 }
 
+.loginBtn {
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
+}
+/*Botões*/
 button img{
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
+  border-radius: 100px;
 }
 
 button:hover {
-  border-radius: 20px;
-  border-color: rgb(255, 102, 0);
-  border-style: inset;
+  border-radius: 200px;
+  border-style:inherit;
 }
 button img:hover {
-  border-radius: 20px;
-  border-style: inset;
+  border-style:inherit;
 }
 
 
+/*Titulo Principal*/
 h1 {
   display: flow-root;
   font-size: 60px;
   padding: .5em 1em;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-bottom: 1px solid lightgrey;
   color: rgb(223, 223, 223);
-  padding-left: 40%;
+  text-align: center;
 }
+/*Titulo Secundario*/
 h2 {
   display: flow-root;
   padding: .5em 1em;
   background-color: white;
   border-bottom: 1px solid lightgrey;
   color: rgb(223, 223, 223);
-  padding-left: 40%;
+  text-align: center;
+}
+h1, h2{ 
+  background-image: url("./imagens/Design.gif");
+  color: rgb(255, 81, 0);
+  border-color: rgba(95, 95, 95, 0.829);
 }
 
+
+/*Formulario*/
 form{
   display: flex;
-  flex-wrap:wrap;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
-  padding: 20px;
+  padding: 10vh;
 }
-
 form label {
   color: aliceblue;
   font-size: 18px;
 }
-
 form input:hover {
   font-size: 20px;
 }
 
-.corpo {
-  background-color: rgba(83, 83, 83, 0.445);
-}
-.corpo h1, h2{ 
-  background-image: url("https://media.istockphoto.com/photos/burning-embers-glowing-fire-glowing-particles-on-black-background-picture-id1328085467?b=1&k=20&m=1328085467&s=170667a&w=0&h=raEavWem4UQbA36TvhWWfZjGkwUVqUbqz2YPheiqm38=");
-  width: 100%;
-  color: rgb(255, 81, 0);
-  border-color: rgba(95, 95, 95, 0.829);
-  align-items: center;
-}
 
+/*Container*/
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -133,8 +142,7 @@ form input:hover {
   transition: all 1.8s cubic-bezier(.19, 1, .22, 1);
 }
 
-
-.container .card p{
+ .card p{
   color: rgb(230, 230, 230);
 }
 
@@ -167,7 +175,7 @@ form input:hover {
 
   h1, h2 {
     font-size: 3vh;
-    width: 100%;
+    text-align: center;
   }
 
   .loginBtn{

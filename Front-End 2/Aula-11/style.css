@@ -1,0 +1,9 @@
+input{
+
+    border: 1px solid black;
+}
+
+.controlador.erro input{
+
+    border-color:red;
+}
