@@ -146,6 +146,27 @@ form input:hover {
   color: rgb(230, 230, 230);
 }
 
+/*Imagem Paralax final - páginas*/
+.img-fim {
+  background-image: ("./imagens/Design.gif");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/*Footer - páginas*/
+.footer-site {
+  background-color: #333333;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 30%;
+  text-align: center;
+  
+}
 
 
 /********************* MEDIA QUERIES *****************/

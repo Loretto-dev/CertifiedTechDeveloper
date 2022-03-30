@@ -1,0 +1,4 @@
+FROM python:alpine
+WORKDIR /diretorioprinc/
+COPY aula8.py /diretorioprinc/
+ENTRYPOINT ["python", "aula8.py"]
